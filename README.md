@@ -1,0 +1,1 @@
+# Demag Compressor Performance App\n\nAplicativo estilo Ariel 7 para análise de compressores Demag com acionadores elétricos ou a combustão interna a GN.
