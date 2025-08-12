@@ -1,0 +1,17 @@
+# clonar seu repo do GitHub (faça isso apenas se ainda não clonou)
+git clone https://github.com/SEU_USUARIO/SEU_REPO.git
+cd SEU_REPO
+
+# criar um branch novo para as mudanças (bom para revisão)
+git checkout -b advanced_gas_composition
+
+# copiar/mesclar os arquivos do pacote pra dentro do repo local. Exemplo:
+# (no mac/linux)
+cp -r ~/Downloads/demag_streamlit_final/* .
+
+# adicionar e commitar
+git add .
+git commit -m "Adiciona versão advanced com composição de gás e inputs do acionador"
+
+# enviar branch para o GitHub
+git push origin advanced_gas_composition
